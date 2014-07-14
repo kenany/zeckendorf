@@ -1,0 +1,23 @@
+{
+  "name": "zeckendorf",
+  "version": "0.0.0",
+  "description": "Calculate the Zeckendorf representation of an integer",
+  "keywords": [
+    "fibonacci"
+  ],
+  "repository": "KenanY/zeckendorf",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "devDependencies": {
+    "lodash.foreach": "^2.4.1",
+    "lodash.isfunction": "^2.4.1",
+    "tape": "^2.13.3"
+  }
+}
