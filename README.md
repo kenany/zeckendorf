@@ -1,5 +1,7 @@
 # zeckendorf
 
+[![Build Status](https://travis-ci.org/KenanY/zeckendorf.svg)](https://travis-ci.org/KenanY/zeckendorf)
+
 Calculate the [Zeckendorf representation][] of an integer.
 
 ## Example
