@@ -1,3 +1,6 @@
+var forEachRight = require('lodash.foreachright');
+var parseInt = require('lodash.parseint');
+
 function zeckendorf(n) {
   if (n === 0) {
     return 0;
@@ -11,13 +14,12 @@ function zeckendorf(n) {
   }
 
   var sb = '';
-  for (var i = fibs.length - 1; i >= 0; i--) {
-    var fib = fibs[i];
+  forEachRight(fibs, function(fib) {
     sb += fib <= n ? '1' : '0';
     if (fib <= n) {
       n -= fib;
     }
-  }
+  });
   return parseInt(sb, 10);
 }
 
