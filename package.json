@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "lodash.foreachright": "^4.4.0",
-    "lodash.parseint": "^2.4.1"
+    "lodash.parseint": "^4.0.2"
   },
   "devDependencies": {
     "lodash.foreach": "^4.5.0",
