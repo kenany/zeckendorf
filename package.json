@@ -20,7 +20,7 @@
     "test": "tape test/*.js"
   },
   "dependencies": {
-    "lodash.foreachright": "^2.4.1",
+    "lodash.foreachright": "^4.4.0",
     "lodash.parseint": "^2.4.1"
   },
   "devDependencies": {
