@@ -17,6 +17,7 @@
     "test": "test"
   },
   "scripts": {
+    "pretest": "eslint *.js test/*.js",
     "test": "tape test/*.js"
   },
   "dependencies": {
@@ -24,6 +25,8 @@
     "lodash.parseint": "^4.0.2"
   },
   "devDependencies": {
+    "@kenan/eslint-config": "^3.0.0",
+    "eslint": "^3.5.0",
     "lodash.foreach": "^4.5.0",
     "lodash.isfunction": "^3.0.8",
     "tape": "^4.6.0"
