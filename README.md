@@ -1,6 +1,6 @@
 # zeckendorf
 
-[![Build Status](https://travis-ci.org/KenanY/zeckendorf.svg)](https://travis-ci.org/KenanY/zeckendorf)
+[![Build Status](https://travis-ci.org/KenanY/zeckendorf.svg)](https://travis-ci.org/KenanY/zeckendorf) [![Greenkeeper badge](https://badges.greenkeeper.io/KenanY/zeckendorf.svg)](https://greenkeeper.io/)
 
 Calculate the [Zeckendorf representation][] of an integer.
 
