@@ -25,11 +25,11 @@
     "lodash.parseint": "^4.0.2"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "^6.0.0",
+    "@kenan/eslint-config": "6.0.0",
     "@kenan/renovate-config": "1.1.1",
-    "eslint": "^5.16.0",
-    "lodash.foreach": "^4.5.0",
-    "lodash.isfunction": "^3.0.8",
-    "tape": "^4.6.0"
+    "eslint": "5.16.0",
+    "lodash.foreach": "4.5.0",
+    "lodash.isfunction": "3.0.9",
+    "tape": "4.11.0"
   }
 }
