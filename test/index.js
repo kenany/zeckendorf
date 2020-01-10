@@ -1,7 +1,10 @@
-var zeckendorf = require('../');
+'use strict';
+
 var test = require('tape');
 var isFunction = require('lodash.isfunction');
 var forEach = require('lodash.foreach');
+
+var zeckendorf = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
