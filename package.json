@@ -25,7 +25,7 @@
     "lodash.parseint": "^4.0.2"
   },
   "devDependencies": {
-    "@kenan/eslint-config": "8.0.0",
+    "@kenan/eslint-config": "8.0.4",
     "@kenan/renovate-config": "1.4.0",
     "eslint": "^7.15.0",
     "lodash.foreach": "4.5.0",
