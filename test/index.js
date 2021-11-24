@@ -1,10 +1,10 @@
 'use strict';
 
-var test = require('tape');
-var isFunction = require('lodash.isfunction');
-var forEach = require('lodash.foreach');
+const test = require('tape');
+const isFunction = require('lodash.isfunction');
+const forEach = require('lodash.foreach');
 
-var zeckendorf = require('../');
+const zeckendorf = require('../');
 
 test('exports a function', function(t) {
   t.plan(1);
@@ -12,7 +12,7 @@ test('exports a function', function(t) {
 });
 
 test('calculates zeckendorf representations', function(t) {
-  var EXPECTED = [
+  const EXPECTED = [
     [0, 0],
     [1, 1],
     [2, 10],

@@ -1,19 +1,23 @@
-var forEachRight = require('lodash.foreachright');
-var parseInt = require('lodash.parseint');
+const forEachRight = require('lodash.foreachright');
+const parseInt = require('lodash.parseint');
 
+/**
+ * @param {number} n
+ * @returns {number}
+ */
 function zeckendorf(n) {
   if (n === 0) {
     return 0;
   }
 
-  var fibs = [1];
-  var next = 2;
+  const fibs = [1];
+  let next = 2;
   while (next <= n) {
     fibs.push(next);
     next += fibs[fibs.length - 2];
   }
 
-  var sb = '';
+  let sb = '';
   forEachRight(fibs, function(fib) {
     sb += fib <= n ? '1' : '0';
     if (fib <= n) {
