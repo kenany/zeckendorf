@@ -38,6 +38,6 @@
     "lodash.foreach": "^4.5.0",
     "lodash.isfunction": "^3.0.9",
     "semantic-release": "^19.0.5",
-    "tape": "^5.6.0"
+    "tape": "^5.6.1"
   }
 }
