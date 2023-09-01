@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/KenanY/zeckendorf/compare/3.0.0...4.0.0) (2023-09-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js v14 and v16 are no longer supported.
+
+### Features
+
+* drop Node.js v14 and v16 support ([40f28d7](https://github.com/KenanY/zeckendorf/commit/40f28d7baccedc6e096ac4f2297b0aacff63982b))
+
 ## [3.0.0](https://github.com/KenanY/zeckendorf/compare/2.0.0...3.0.0) (2022-12-27)
 
 
