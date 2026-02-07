@@ -36,7 +36,7 @@
     "@containerbase/semantic-release-pnpm": "1.3.18",
     "@kenan/eslint-config": "10.0.2",
     "conventional-changelog-conventionalcommits": "9.1.0",
-    "eslint": "8.57.1",
+    "eslint": "9.26.0",
     "lodash.foreach": "4.5.0",
     "lodash.isfunction": "3.0.9",
     "semantic-release": "25.0.3",
