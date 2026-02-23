@@ -1,5 +1,4 @@
 const forEachRight = require('lodash.foreachright');
-const parseInt = require('lodash.parseint');
 
 /**
  * @param {number} n
@@ -14,17 +13,17 @@ function zeckendorf(n) {
   let next = 2;
   while (next <= n) {
     fibs.push(next);
-    next += fibs[fibs.length - 2];
+    next += fibs.at(-2);
   }
 
   let sb = '';
-  forEachRight(fibs, function(fib) {
+  forEachRight(fibs, (fib) => {
     sb += fib <= n ? '1' : '0';
     if (fib <= n) {
       n -= fib;
     }
   });
-  return parseInt(sb, 10);
+  return Number.parseInt(sb, 10);
 }
 
 module.exports = zeckendorf;
