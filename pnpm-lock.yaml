@@ -16,8 +16,8 @@ importers:
         specifier: 2.4.4
         version: 2.4.4
       '@containerbase/semantic-release-pnpm':
-        specifier: 1.3.18
-        version: 1.3.18(semantic-release@25.0.3)
+        specifier: 1.3.21
+        version: 1.3.21(semantic-release@25.0.3)
       '@kenan/biome-config':
         specifier: 1.0.6
         version: 1.0.6(@biomejs/biome@2.4.4)
@@ -81,24 +81,28 @@ packages:
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@biomejs/cli-linux-arm64@2.4.4':
     resolution: {integrity: sha512-V/NFfbWhsUU6w+m5WYbBenlEAz8eYnSqRMDMAW3K+3v0tYVkNyZn8VU0XPxk/lOqNXLSCCrV7FmV/u3SjCBShg==}
     engines: {node: '>=14.21.3'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@biomejs/cli-linux-x64-musl@2.4.4':
     resolution: {integrity: sha512-gGvFTGpOIQDb5CQ2VC0n9Z2UEqlP46c4aNgHmAMytYieTGEcfqhfCFnhs6xjt0S3igE6q5GLuIXtdQt3Izok+g==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@biomejs/cli-linux-x64@2.4.4':
     resolution: {integrity: sha512-R4+ZCDtG9kHArasyBO+UBD6jr/FcFCTH8QkNTOCu0pRJzCWyWC4EtZa2AmUZB5h3e0jD7bRV2KvrENcf8rndBg==}
     engines: {node: '>=14.21.3'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@biomejs/cli-win32-arm64@2.4.4':
     resolution: {integrity: sha512-trzCqM7x+Gn832zZHgr28JoYagQNX4CZkUZhMUac2YxvvyDRLJDrb5m9IA7CaZLlX6lTQmADVfLEKP1et1Ma4Q==}
@@ -116,8 +120,8 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@containerbase/semantic-release-pnpm@1.3.18':
-    resolution: {integrity: sha512-+OwbR0LJvyhbgx5dWQFxyBfMU9O1P66JFfyktSJZJsknMAUmGevWRzBhsU7vNkWefFsvqUTxwxUkNN1VXozU7Q==}
+  '@containerbase/semantic-release-pnpm@1.3.21':
+    resolution: {integrity: sha512-NmRLN1yXJIBe2w6SN6ia6SHUnxvlFmwv3DiHbdWpWoi3eANIxgCtytVsvOHD8/7/q1PLputIm65NltQ0+0MsxA==}
     engines: {node: ^22.11.0 || ^24}
     peerDependencies:
       semantic-release: ^24.0.0 || ^25.0.0
@@ -1825,7 +1829,7 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@containerbase/semantic-release-pnpm@1.3.18(semantic-release@25.0.3)':
+  '@containerbase/semantic-release-pnpm@1.3.21(semantic-release@25.0.3)':
     dependencies:
       '@semantic-release/error': 4.0.0
       aggregate-error: 5.0.0
