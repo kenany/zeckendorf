@@ -1,17 +1,15 @@
-'use strict';
-
 const test = require('tape');
 const isFunction = require('lodash.isfunction');
 const forEach = require('lodash.foreach');
 
 const zeckendorf = require('../');
 
-test('exports a function', function(t) {
+test('exports a function', (t) => {
   t.plan(1);
   t.ok(isFunction(zeckendorf));
 });
 
-test('calculates zeckendorf representations', function(t) {
+test('calculates zeckendorf representations', (t) => {
   const EXPECTED = [
     [0, 0],
     [1, 1],
@@ -46,13 +44,13 @@ test('calculates zeckendorf representations', function(t) {
     [30, 1010001],
     [31, 1010010],
     [32, 1010100],
-    [33, 1010101]
+    [33, 1010101],
   ];
 
   t.plan(EXPECTED.length * 2);
 
-  forEach(EXPECTED, function(n) {
-    t.doesNotThrow(function() {
+  forEach(EXPECTED, (n) => {
+    t.doesNotThrow(() => {
       zeckendorf(n[0]);
     });
     t.equal(zeckendorf(n[0]), n[1]);
